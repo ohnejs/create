@@ -1,0 +1,38 @@
+{
+  "name": "create-ohne",
+  "version": "0.0.1",
+  "description": "Scaffold a new ohne project.",
+  "homepage": "https://github.com/ohnejs/create#readme",
+  "license": "MIT",
+  "author": "Muris Ceman <muris@ohne.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohnejs/create.git"
+  },
+  "bin": {
+    "create-ohne": "./bin.js"
+  },
+  "files": [
+    "bin.js"
+  ],
+  "type": "module",
+  "scripts": {
+    "format": "oxfmt",
+    "lint": "oxlint",
+    "test": "NODE_COMPILE_CACHE=node_modules/.cache/node-compile node --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "ohnejs": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.0",
+    "oxfmt": "0.55.0",
+    "oxlint": "1.70.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=26.0.0"
+  },
+  "packageManager": "pnpm@11.5.1"
+}
