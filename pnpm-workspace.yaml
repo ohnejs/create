@@ -1,5 +1,2 @@
-minimumReleaseAgeExclude:
-  - typescript@7.0.2
-
 overrides:
   ohnejs: link:../ohne
