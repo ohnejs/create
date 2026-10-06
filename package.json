@@ -1,6 +1,6 @@
 {
   "name": "create-ohne",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scaffold a new ohne project.",
   "homepage": "https://ohne.dev/docs/start/installation",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "ohnejs": "0.0.1"
+    "ohnejs": "0.0.2"
   },
   "devDependencies": {
     "@types/node": "26.0.0",
