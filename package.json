@@ -2,7 +2,7 @@
   "name": "create-ohne",
   "version": "0.0.1",
   "description": "Scaffold a new ohne project.",
-  "homepage": "https://github.com/ohnejs/create#readme",
+  "homepage": "https://ohne.dev/docs/start/installation",
   "license": "MIT",
   "author": "Muris Ceman <muris@ohne.dev>",
   "repository": {
