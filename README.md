@@ -17,6 +17,9 @@ npm create ohne my-app
 pnpm create ohne my-app
 ```
 
+`--web nuxt` or `--web next` adds a website: a pnpm workspace with your app in `apps/backend` and
+the website in `apps/web`.
+
 ## Flags
 
 With npm, flags go after `--`. npm reads every flag before it as its own, so `--yes`, `--force`,
