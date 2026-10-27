@@ -17,7 +17,7 @@ describe('package.json', () => {
   });
 
   it('names the `create-ohne` bin', () => {
-    deepStrictEqual(pkg.bin, { 'create-ohne': './bin.js' });
+    deepStrictEqual(pkg.bin, { 'create-ohne': 'bin.js' });
   });
 
   it('keeps `bin.js` executable', () => {

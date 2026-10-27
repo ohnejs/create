@@ -10,7 +10,7 @@
     "url": "git+https://github.com/ohnejs/create.git"
   },
   "bin": {
-    "create-ohne": "./bin.js"
+    "create-ohne": "bin.js"
   },
   "files": [
     "bin.js"
