@@ -11,7 +11,7 @@ const NPM = 'npm/11.16.0 node/v26.3.0 darwin arm64 workspaces/false';
 
 const PNPM = 'pnpm/12.9.1 npm/? node/v26.3.0 darwin arm64';
 
-const FILES = ['.gitignore', 'ohne.config.ts', 'package.json', 'tsconfig.json'];
+const FILES = ['.gitignore', 'dashboard', 'ohne.config.ts', 'package.json', 'tsconfig.json'];
 
 describe('bin', () => {
   let root: string;
